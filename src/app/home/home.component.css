@@ -1,0 +1,41 @@
+
+.container{
+  background-image:url('/assets/portfoliobackground2.webp');
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size:cover;
+  height:670px;
+}
+.container-text{
+  color:white;
+  top: 32%;
+  position: relative;
+  /* width: 40%;
+  float: right; */
+  padding:0 50px;
+}
+.container-text h1{
+  font-weight:100;
+  font-size:60px;
+  line-height:32px;
+  font-family: 'EB Garamond', serif;
+}
+.container-text b{
+  color:brown;
+}
+.sub-heading{
+  margin-top:50px;
+}
+
+@media(max-width:550px){
+  .container{
+      flex-direction:column;
+  }
+  .container-text h1{
+    font-size: 47px !important;
+  }
+  .sub-heading h1{
+    font-size:50px !important;
+    line-height: 60px;
+  }
+}

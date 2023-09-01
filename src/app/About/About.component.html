@@ -1,0 +1,32 @@
+<section id="about.nav">
+  <div class="about">ABOUT</div>
+<div class="container">
+ 
+  <div class="intro">
+    <mat-card class="card" [@flip]="isFlipped ? 'back' : 'front'">
+  <h2>Who is She?</h2>
+  <div class="image-container"><img class="display-image" src=".\assets\portfolioimage.jpeg" /></div>
+  <p>I am Frontend developer.<br>
+    Currently I am final year student of MCA.</p>
+  </mat-card>
+  </div>
+
+  
+  <div class="skills-container">
+    <div class="skill" *ngFor="let skill of skills">
+      <p class="skill-name">{{ skill.name }}</p>
+      
+        <div class="progress-bar">
+        <mat-progress-bar 
+           mode="determinate"
+          [value]="skill.level"  
+          [@progressAnimation]="skill.level"  
+    >
+    {{ skill.level }}%
+        </mat-progress-bar>
+       </div>
+    </div>
+  </div>
+
+</div>
+</section>

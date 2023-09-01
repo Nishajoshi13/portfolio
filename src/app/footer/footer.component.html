@@ -1,0 +1,64 @@
+<section id="contact">
+<footer class="footer">
+    <div class="contact-info">
+    <div class="contact"><h1>CONTACT ME</h1>
+        <div class="address">
+        <h2>Address:</h2>
+        <p>Uttarakhand</p>
+        <p>Nainital</p>
+        <p>Haldwani</p>
+        <p>Contact-no: +91 6396765717</p>
+    </div>
+    <div class=" social-links">
+        <a href="mailto:nishajoshi132001@gmail.com" class="links">
+             <img class="icon" src="\assets\gmailimg.png">
+         </a>
+         <a href="_blank" href="https://linkedin.com/in/Nisha Joshi" class="links">
+             <img class="icon" src="\assets\linkdinimg.png">
+         </a>
+        
+          <a href="_blank" href="https://www.instagram.com/nishajoshi__" class="links">
+             <img class="icon" src="\assets\instaimg.png">
+         </a>
+         <a href="_blank" href="https://www.facebook.com/Nisha Joshi" class="links">
+             <img class="icon" src="\assets\facebookimg.png">
+         </a>
+         <a href="_blank" href="https://github.com/Nishajoshi13" class="links">
+             <img class="icon" src="\assets\githubimg.png">
+         </a>
+     </div>
+    </div>
+    <div class="main-container">
+    <div class="container">
+        <mat-card class="f-card">
+             <form class="form-container" [formGroup]="myForm">
+            <mat-form-field class="form-field">
+            <input matInput placeholder="Name" formControlName="name" required Name>
+            </mat-form-field>
+            <br>
+            <mat-form-field class="form-field">
+            <input matInput placeholder="Email"  formControlName="email" required email>
+            </mat-form-field>
+            <br>
+            <!-- <mat-form-field class="form-field">
+            <input matInput placeholder="Contact No"  formControlName="contactNo" required Contactno>
+            </mat-form-field>
+            <br> -->
+            <mat-form-field class="form-field">
+            <textarea matInput placeholder="Message" formControlName="message" required></textarea> 
+            </mat-form-field>
+            <br>
+            <button mat-raised-button color="gray" type="submit">Send</button>
+            </form>
+      
+        </mat-card>
+    </div>
+</div>
+</div>
+
+<div class="button">
+    <button class="scroll-button" (click)="scrollToTop()"> Home</button>
+</div>
+
+</footer>
+</section>

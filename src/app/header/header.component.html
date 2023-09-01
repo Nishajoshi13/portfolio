@@ -1,0 +1,13 @@
+<div class="banner">
+<mat-toolbar class="navbar">
+  <mat-toolbar-row>
+    <span class="example-spacer"></span>
+    <div class="list"[ngClass]="{'navbar-scroll': shouldScrollNavbar}">
+      <a (click)="scrollTo('home')">Home</a>
+      <a (click)="scrollTo('about.nav')">About</a>
+      <a (click)="scrollTo('project')">Project</a>
+      <a (click)="scrollTo('contact')">Contact</a>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+ </div>

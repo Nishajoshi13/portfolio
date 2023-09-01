@@ -1,0 +1,74 @@
+
+.about{
+  display: flex;
+  justify-content: center;
+  padding-top:30px; 
+  font-family: 'EB Garamond', serif;
+  font-size:45px;
+}
+.container{
+  display:flex;
+  margin:50px;
+  justify-content: center;
+  align-items: center;
+  gap:62px;
+ 
+}
+.intro{
+  width:26%;
+}
+@media (max-width: 550px) {
+  .container{
+    flex-direction: column; 
+    margin:20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro{
+    width:100% !important;
+  }
+}
+.card{
+  box-shadow: 0 4px 6px #424242c4;
+  font-family: 'EB Garamond', serif;
+}
+.card h2{
+  padding:4px;
+  font-family: 'EB Garamond', serif;
+  font-size: 33px;
+}
+.intro p{
+  font-family: 'EB Garamond', serif;
+  font-size:18px;
+  font-weight:500;
+  padding:13px;
+}
+.display-image{
+  width:70%;
+  height:72%;
+  border-radius: 4px;
+}
+.image-container{
+  display: flex;
+  justify-content: center;
+}
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  max-width:400px;
+}
+.skill-name {
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: 'EB Garamond', serif;
+}
+.progress-bar, .mdc-linear-progress__buffer-bar  {
+  background-color:rgb(195, 193, 193);
+ width:60vh;
+}
+.progress-bar,.mdc-linear-progress__bar-inner,.mat-mdc-progress-bar{
+    --mdc-linear-progress-active-indicator-height: 29px; 
+    --mdc-linear-progress-track-height: 28px; 
+}
+
+
