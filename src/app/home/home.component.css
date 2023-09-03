@@ -1,7 +1,7 @@
 
-.backgroundimage{
-  /* background-image:url('/assets/ortfoliobackground2.webp'); */
-  background-repeat: no-repeat;
+.background-image{
+  /* background-image:url('/assets/ortfoliobackground2.webp'); */ 
+   background-repeat: no-repeat;
   background-position: 0 100%;
   background-size:cover;
   height:670px;
